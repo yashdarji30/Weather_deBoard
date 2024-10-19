@@ -1,0 +1,86 @@
+.App {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-display {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .current-weather img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forecast-item {
+    text-align: center;
+  }
+  
+  .forecast-item img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .favorites ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .favorites li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .favorites li span {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .favorites li span:hover {
+    text-decoration: underline;
+  }
