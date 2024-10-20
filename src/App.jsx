@@ -3,9 +3,12 @@ import axios from "axios";
 import Search from "./components/Search";
 import WeatherDisplay from "./components/WeatherDisplay";
 import Favorites from "./components/Favorites";
+// import.meta.env.VITE_WEATHER_API_KEY
 import "./App.css";
 
-const API_KEY = "19367d1d88a155de5d38b3631143dbaf";
+
+
+const API_KEY =import.meta.env.VITE_WEATHER_API_KEY;
 const API_BASE_URL = "https://api.openweathermap.org/data/2.5";
 
 function App() {
